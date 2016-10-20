@@ -65,7 +65,7 @@ services:
         environment:
             VIRTUAL_HOST: multichain-mysql.docker
             VIRTUAL_PORT: 3306
-            MYSQL_ROOT_PASSWORD: r00t
+            MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: blockchain
             MYSQL_USER: blockchain
             MYSQL_PASSWORD: blockchain
